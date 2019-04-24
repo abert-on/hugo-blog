@@ -4,7 +4,7 @@ date: 2017-11-05 12:21:22 +0100
 tags:
 - docker
 - programming
-draft: true
+draft: false
 ---
 ### Why?
 Printing from a Docker Container!? Why would someone want to do that? 
