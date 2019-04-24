@@ -5,7 +5,9 @@ draft: false
 ---
 ## Alec Burton
 
-Principal Developer based around London and the South East of England. Interested in Java, Spring Boot, BDD, continuous integration, Docker and coaching.
+Principal Developer based around London and the South East of England. 
+
+Interested in Java, Spring Boot, BDD, continuous integration, Docker and coaching.
 
 [Email: mail@alecburton.co.uk](mailto:mail@alecburton.co.uk)
 
