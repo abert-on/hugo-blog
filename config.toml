@@ -1,0 +1,13 @@
+baseURL = "http://alecburton.co.uk/"
+languageCode = "en-us"
+title = "Alec Burton's Blog"
+disqusShortname = "alecburton"
+
+theme = "jeffprod"
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
