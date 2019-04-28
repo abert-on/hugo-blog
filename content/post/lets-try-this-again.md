@@ -1,6 +1,6 @@
 ---
 title: "Let's Try This Again..."
-date: 2019-28-04 15:00:00 +0100
+date: 2019-04-28 15:00:00 +0100
 tags:
 - other
 - blogging
