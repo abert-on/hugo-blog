@@ -9,7 +9,7 @@ tags:
 - habits
 draft: false
 ---
-It's 2017 and I'm starting to get to grips with my new role as a Senior Developer. This new role contained new competencies aimed to encourage more involvement with the wider developer community. For me it seemed ideal place to start to do this was to run my own blog. Unfortunately after 3 months, and just 3 posts, progress stalled...
+It's 2017 and I'm starting to get to grips with my new role as a Senior Developer. This new role contained new competencies aimed to encourage more involvement with the wider developer community. For me it seemed ideal place to start to do this was to run my own blog. Unfortunately after 3 months, and just 3 posts, progress stalled.
 <!--more-->
 
 ### What Went Wrong?
