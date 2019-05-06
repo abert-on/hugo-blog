@@ -4,6 +4,8 @@ date: 2017-11-05 12:21:22 +0100
 tags:
 - programming
 - docker
+- CUPS
+- linux
 draft: false
 ---
 ### Why?
