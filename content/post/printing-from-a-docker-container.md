@@ -6,6 +6,8 @@ tags:
 - docker
 - CUPS
 - linux
+aliases:
+  - "/docker/containers/cups/dockerfile/linux/blog/hp/git/docker-compose/print/printing/2017/11/05/printing-from-a-docker-container.html"
 draft: false
 ---
 ### Why?
