@@ -3,10 +3,13 @@
 <div class="columns">
     <div class="column is-9">
         <div class="tile is-child box">
-            <p class="subtitle is-size-6 has-text-grey-light">
-                    Published at {{ .Date.Format "January 2, 2006" }} &middot;
-                    <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
-            </p>
+            {{ if not (eq .Title "About")}}
+                <p class="subtitle is-size-6 has-text-grey-light">
+                        Published at {{ .Date.Format "January 2, 2006" }} &middot;
+                        <i class="far fa-clock"></i>&nbsp;{{.ReadingTime}} min read
+                </p>
+            {{ end }}
+            
             <div class="content">
                 {{ .Content }}
             </div>
