@@ -5,6 +5,8 @@ disqusShortname = "alecburton"
 
 theme = "jeffprod"
 
+googleAnalytics = "UA-139657686-1"
+
 [permalinks]
     post = "/:year/:filename"
 
