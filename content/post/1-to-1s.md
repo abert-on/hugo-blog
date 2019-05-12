@@ -7,13 +7,8 @@ tags:
 - meeting
 - career
 - management
-twitter:
-  card: "summary_large_image"
-  site: "@AlecJBurton"
-  creator: "@AlecJBurton"
-  title: "Tips for Better 1-to-1s"
-  description: "As time scheduled between you and your manager to talk about *you* and *your* career, one-to-ones can be very powerful tool for career growth. Here a few tips on how to make the most out of them."
-  image: "https://www.alecburton.co.uk/img/mull2.JPG"
+params:
+  description: "Printing from a Docker Container!? Why would someone want to do that?"
 draft: false
 ---
 As time scheduled between you and your manager to talk about *you* and *your* career, one-to-ones can be very powerful tool for career growth. Here a few tips on how to make the most out of them.

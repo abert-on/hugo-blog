@@ -8,6 +8,12 @@ theme = "jeffprod"
 [permalinks]
     post = "/:year/:filename"
 
+[params]
+  description = "A blog on programming and coaching."
+  images = ["img/mull2.JPG"]
+  title = "Alec Burton's Blog"
+
 [taxonomies]
     tag = "tags"
     archive = "archives"
+    series = "series"

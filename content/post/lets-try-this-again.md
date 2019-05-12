@@ -7,13 +7,8 @@ tags:
 - hugo
 - netlify
 - habits
-twitter:
-  card: "summary_large_image"
-  site: "@AlecJBurton"
-  creator: "@AlecJBurton"
-  title: "Let's Try This Again..."
-  description: "It's 2017 and I'm starting to get to grips with my new role as a Senior Developer. This new role contained new competencies aimed to encourage more involvement with the wider developer community. For me it seemed ideal place to start to do this was to run my own blog. Unfortunately after 3 months, and just 3 posts, progress stalled."
-  image: "https://www.alecburton.co.uk/img/mull2.JPG"
+params:
+  description: "Printing from a Docker Container!? Why would someone want to do that?"
 draft: false
 ---
 It's 2017 and I'm starting to get to grips with my new role as a Senior Developer. This new role contained new competencies aimed to encourage more involvement with the wider developer community. For me it seemed ideal place to start to do this was to run my own blog. Unfortunately after 3 months, and just 3 posts, progress stalled.
