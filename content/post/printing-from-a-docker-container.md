@@ -8,6 +8,13 @@ tags:
 - linux
 aliases:
   - "/docker/containers/cups/dockerfile/linux/blog/hp/git/docker-compose/print/printing/2017/11/05/printing-from-a-docker-container.html"
+twitter:
+  card: "summary_large_image"
+  site: "@AlecJBurton"
+  creator: "@AlecJBurton"
+  title: "Printing From a Docker Container"
+  description: "Printing from a Docker Container!? Why would someone want to do that?"
+  image: "https://www.alecburton.co.uk/img/mull2.JPG"
 draft: false
 ---
 ### Why?
