@@ -12,10 +12,8 @@ params:
   description: "Printing from a Docker Container!? Why would someone want to do that?"
 draft: false
 ---
-### Why?
+Printing from a Docker Container!? Why would someone want to do that?<!--more-->
 
-Printing from a Docker Container!? Why would someone want to do that?
-<!--more-->
 Well it turns our that as part of a "Document Production" system we had, it was possible to configure automatic print jobs from the mid-tier of our application.
 
 We had not long moved our development and integration environments over to Docker and, utilising Jenkins multi-branch pipelines, we had the ability to spin up identical Docker environments for each branch of the application that we had in Git.
