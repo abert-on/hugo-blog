@@ -7,7 +7,7 @@ draft: false
 
 Alec Burton is a Principal Developer based around London and the South East of England.
 
-Interested in Java, Spring Boot, Agile, BDD, continuous integration, Docker and coaching.
+Experienced in Java, Spring Boot, Agile, BDD, continuous integration, Docker and coaching.
 
 ### Contact
 
