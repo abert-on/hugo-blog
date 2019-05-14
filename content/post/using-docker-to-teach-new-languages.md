@@ -1,6 +1,6 @@
 ---
 title: "Using Docker to teach new languages"
-date: 2019-05-13 15:00:00 +0100
+date: 2019-06-13 15:00:00 +0100
 tags:
 - docker
 - docker-compose
@@ -13,7 +13,7 @@ tags:
 params:
   description: "Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that."
   images:
-  - "img/go-docker.png"
+  - "/img/go-docker.png"
 draft: false
 ---
 Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers, is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that.
@@ -25,7 +25,7 @@ As part of our monthly "Hive" or community days, the development community quite
 
 Luckily for us, each developer that joined our session had one thing in common. They used Docker as part of their day-to-day work. It was thought that we could utilise this to provide out-of-the-box environments for building and running everyone's Go coding examples.
 
-![Go Docker]("img/go-docker.png)
+![Go Docker]("/img/go-docker.png)
 
 ### The set up
 
