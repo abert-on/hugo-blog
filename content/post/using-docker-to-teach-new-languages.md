@@ -81,7 +81,7 @@ docker-compose down
 docker build -t go-movie-api .
 docker tag go-movie-api docker.aquilaheywood.co.uk/go-movie-api:local
 
-# being up a new stack with latest code
+# bring up a new stack with latest code
 docker-compose up -d
 ```
 
