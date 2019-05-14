@@ -25,7 +25,7 @@ As part of our monthly "Hive" or community days, the development community quite
 
 Luckily for us, each developer that joined our session had one thing in common. They used Docker as part of their day-to-day work. It was thought that we could utilise this to provide out-of-the-box environments for building and running everyone's Go coding examples.
 
-![Go Docker]("/img/go-docker.png)
+![Go Docker]("/img/go-docker.png")
 
 ### The set up
 
