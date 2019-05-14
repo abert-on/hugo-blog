@@ -1,6 +1,6 @@
 ---
 title: "Using Docker to teach new languages"
-date: 2019-06-13 15:00:00 +0100
+date: 2019-06-13 09:00:00 +0100
 tags:
 - docker
 - docker-compose
