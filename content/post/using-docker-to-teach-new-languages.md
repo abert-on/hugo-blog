@@ -4,6 +4,7 @@ date: 2019-05-13 15:00:00 +0100
 tags:
 - docker
 - docker-compose
+- Dockerfile
 - go
 - golang
 - mongoDB
@@ -13,7 +14,7 @@ params:
   description: "Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that."
   images:
   - "img/go-docker.png"
-draft: true
+draft: false
 ---
 Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers, is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that.
 <!--more-->
@@ -30,17 +31,61 @@ Luckily for us, each developer that joined our session had one thing in common. 
 
 Having not long finished a project to create a new set of RESTful APIs using Java and Spring Boot and Web MVC, the goal of the session was to create a simple set of APIs in Golang. With the experience of Java fresh in our minds, it would be an interesting comparison.
 
-A set of movie data would be put in to a MongoDB database, and people would then use Mux and ??? in Go to expose it to GET, POST, PUT and DELETE endpoints.
+A set of movie data would be put in to a MongoDB database, and people would then use Mux and mgo in Go to expose it to GET, POST, PUT and DELETE endpoints.
 
-A docker volume would link the code people had written locally to the Go container, with the code being compiled on start-up of the container. If the container failed to start, then the Docker logs would tell us why. One slight complication was that throughout the office we had a split of people using Docker in Linux and people using Docker for Windows. This meant we had to be careful declaring the volumes so both the Go and Mongo containers would work in both set-ups.
+The initial thinking was that a docker volume could be used to link the code people had written locally to the Go container, with the code being compiled on start-up of the container. However, we has the complication that throughout the office we had a split of people using Docker in Linux and people using Docker for Windows. This meant that it was hard to construct a volume that would work in both environments. Instead a Dockerfile was used to copy the files in to the container, perform a `go get` to retrieve all the external dependencies and then run the application. 
+
+Here's what it looked like:
+```Dockerfile
+FROM golang
+WORKDIR /go/src/
+COPY . .
+RUN go get -d -v github.com/globalsign/mgo github.com/gorilla/mux
+CMD ["go","run","app.go"]
+```
 
 Here's what the docker-compose file looked like:
 
-``` yaml
+```yaml
+version: '3.5'
+services:
+    dbhost:
+      container_name: dbhost
+      image: docker.aquilaheywood.co.uk/mongo_movies:initial
+      ports: 
+        - "27017:27017"
+      networks:
+        api_net:
+      
+    goapi:
+      image: docker.aquilaheywood.co.uk/go-movie-api:local
+      ports:
+        - "3000:3000"
+      depends_on: 
+        - dbhost
+      networks:
+        api_net:
 
+networks:
+  api_net:
+    name: api_net
 ```
 
-A simple `docker-compose up -d` would bring the stack up, compile and then start the application on port ???.
+A simple shell script is then used to splat any currently running containers, rebuild the Go image, tag this newly built Go image and then start the containers using the compose file above.
+
+```shell
+# remove anything currently running
+docker-compose down
+
+# rebuild the go api
+docker build -t go-movie-api .
+docker tag go-movie-api docker.aquilaheywood.co.uk/go-movie-api:local
+
+# being up a new stack with latest code
+docker-compose up -d
+```
+
+If there are any compile errors, the Go container will fail to start up and the cause will be described in the docker logs for that container. 
 
 ### The result
 
