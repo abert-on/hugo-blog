@@ -13,7 +13,7 @@ tags:
 params:
   description: "Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that."
   images:
-  - /img/go-docker.png
+  - http://www.alecburton.co.uk/img/go-docker.png
 draft: false
 ---
 Often the hardest, most time-consuming, part of running a hands-on teaching session to a room of developers, is getting everyone's environment set up. What if there was an easy way to get everyone up and running quickly at the start of the session? Here are my experiences with using Docker to do just that.
