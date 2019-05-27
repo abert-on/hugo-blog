@@ -8,7 +8,7 @@ tags:
 - career
 - management
 params:
-  description: "Printing from a Docker Container!? Why would someone want to do that?"
+  description: "As time scheduled between you and your manager to talk about *you* and *your* career, one-to-ones can be very powerful tool for career growth. Here a few tips on how to make the most out of them."
 draft: false
 ---
 As time scheduled between you and your manager to talk about *you* and *your* career, one-to-ones can be very powerful tool for career growth. Here a few tips on how to make the most out of them.
