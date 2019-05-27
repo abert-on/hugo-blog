@@ -40,7 +40,7 @@ When holding an annual appraisal with someone, think carefully about what positi
 
 ### Keep Money Out Of It
 
-![Money](/img/money.jgp)
+![Money](/img/money.jpg)
 
 Obviously appraisals and salary/bonus discussions are going to be linked in some way. However, where possible try and obfuscate this link. Keep the salary review separate, maybe even try and remain ignorant about how appraisal scores are combined or how they inform compensation discussions. The idea here is to keep the appraisal focussed on evaluating the appraisee's performance. By taking money out of the conversation it makes it easier to give and receive constructive feedback and focus on what the objectives or competency frameworks are aiming for, rather than how much of a bonus or raise to give this person.
 
