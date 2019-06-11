@@ -18,4 +18,3 @@ googleAnalytics = "UA-139657686-1"
 [taxonomies]
     tag = "tags"
     archive = "archives"
-    series = "series"
