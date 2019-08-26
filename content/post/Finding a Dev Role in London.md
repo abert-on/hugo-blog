@@ -11,7 +11,7 @@ params:
 draft: false
 ---
 With an apparent shortage of talent and a seemingly high demand for developers in the London area, finding a new job should of been easy right? A look back at what has been at times both a joyous and demoralising experience.
-<!--more-->
+<!--more--> ---
 
 This blog has been a bit quiet for the last couple of months. After a buyout and then subsequent relocation of my old company, I made the difficult decision to hand in my notice and look for a new challenge.
 
