@@ -10,4 +10,3 @@ draft: false
 This post has successfully been built via Netlify using a webhook to the GitHub repository!
 
 (This post is part of a Lunch 'n Learn demo of the Netlify CI/CD pipeline used to update this blog)
-
