@@ -2,16 +2,11 @@
 title: "Creating a Raspberry Pi Based Personal Information Radiator"
 date: 2019-05-19 16:00:00 +0100
 tags:
-- raspberry-pi
-- pi
 - linux
 - ruby
 - programming
-- smashing
-- dashboard
 - coffeescript
 - google
-- analytics
 - other
 params:
   description: "Information radiators in the office are great, especially for development teams. Broadcasting the state of CI builds, automated tests and environments ensures that everyone is aware of any breakages, and that these breakages are less likely to be ignored. Attach a Raspberry Pi to large TV or monitor, and you've got a cheap and easy way to set this up anywhere in the office. 

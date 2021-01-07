@@ -6,8 +6,6 @@ tags:
 - agile
 - scrum
 - LeSS
-- definitionofdone
-- done
 params:
   description: "Designing a better of Definition of Done for multiple cross-functional Scrum teams working on the same product."
 draft: false

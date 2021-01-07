@@ -3,10 +3,8 @@ title: "5 Ways to Make Annual Appraisals Less Terrible"
 date: 2019-05-27 16:00:00 +0100
 tags:
 - coaching
-- appraisals
 - career
 - 1-to-1s
-- meeting
 - management
 params:
   description: "Annual appraisals can be painful for both the appraiser and appraisee. While there are ways to give people better, more regular feedback and help them progress their careers faster, often HR or company policy makes the usual yearly cycle difficult to avoid. Below are 5 tips on making annual appraisals less painful for all involved."

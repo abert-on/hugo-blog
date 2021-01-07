@@ -4,7 +4,6 @@ date: 2019-08-26 16:30:00 +0100
 tags:
 - other
 - recruitment
-- jobs
 - interviews
 params:
   description: "With an apparent shortage of talent and a seemingly high demand for developers in the London area, finding a new job should of been easy right? A look back at what has been at times both a joyous and demoralising experience."

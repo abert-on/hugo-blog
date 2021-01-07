@@ -6,7 +6,6 @@ tags:
 - blogging
 - hugo
 - netlify
-- habits
 params:
   description: "Printing from a Docker Container!? Why would someone want to do that?"
 draft: false

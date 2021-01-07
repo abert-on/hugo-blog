@@ -3,10 +3,7 @@ title: "Using Docker to teach new languages"
 date: 2019-05-14 09:00:00 +0100
 tags:
 - docker
-- docker-compose
-- Dockerfile
 - go
-- golang
 - mongoDB
 - coaching
 - programming
