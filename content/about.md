@@ -21,7 +21,7 @@ Experienced in Java, Spring Boot, Agile, BDD, Continuous Integration, Docker and
 
 ---
 
-![Scrum Alliance](https://cdn.ymaws.com/scrum.site-ym.com/graphics/logo.png)
+![Scrum Alliance](/img/scrum-alliance-logo.png)
 
 Join us at the Surrey and Sussex Agile and Scrum [User Group](https://scrum.site-ym.com/members/group.aspx?id=204046)
 
