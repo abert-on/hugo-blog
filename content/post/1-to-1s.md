@@ -88,7 +88,3 @@ If you do have some behavioural competencies you want to work on, or get feedbac
 ### Summary
 
 Hopefully I've given you a few ideas on how to get more out of these meetings. If you have any of your own ideas or experiences, then let me know.
-
----
-
-> This blog was originally delivered as a lunch 'n learn session at Equiniti. If you'd like to join our culture of learning, then check out our [current vacancies](http://equiniticareers.com/opportunities/).

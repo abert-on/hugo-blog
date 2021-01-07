@@ -91,7 +91,3 @@ Apart from some initial confusion caused by a typo in the set-up guide, the gene
 Of course we were massively helped by the fact that everyone already had familiarity with Docker and had been using for their everyday development. Without this, the start of the session would have involved running around getting everyone up-and-running on Docker.
 
 Overall it was a success and something we hope to utilise in the development community again in future sessions.
-
----
-
-> This session on Go was run at one of the monthly community (or "Hive") days at Equiniti. If you'd like to join our culture of learning, then check out our [current vacancies](http://equiniticareers.com/opportunities/).
