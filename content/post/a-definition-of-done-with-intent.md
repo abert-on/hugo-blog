@@ -1,6 +1,7 @@
 ---
 title: "A Definition of Done With Intent"
 date: 2019-06-09 12:00:00 +0100
+archives: "2019"
 tags:
 - other
 - agile

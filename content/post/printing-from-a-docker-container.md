@@ -1,6 +1,7 @@
 ---
 title: "Printing From a Docker Container"
 date: 2017-11-05 12:21:22 +0100
+archives: "2017"
 tags:
 - programming
 - docker

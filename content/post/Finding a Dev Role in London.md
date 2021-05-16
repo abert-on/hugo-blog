@@ -1,6 +1,7 @@
 ---
 title: "Finding a Dev Role in London"
 date: 2019-08-26 16:30:00 +0100
+archives: "2019"
 tags:
 - other
 - recruitment

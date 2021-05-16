@@ -1,6 +1,7 @@
 ---
 title: "Creating a Raspberry Pi Based Personal Information Radiator"
 date: 2019-05-19 16:00:00 +0100
+archives: "2019"s
 tags:
 - linux
 - ruby
